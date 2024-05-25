@@ -1,0 +1,1702 @@
+Launching lib\main.dart on Pixel 6 in debug mode...
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+√  Built build\app\outputs\flutter-apk\app-debug.apk.
+Connecting to VM Service at ws://127.0.0.1:60812/H8EqBX2jqgA=/ws
+I/CameraManagerGlobal( 6893): Connecting to camera service
+D/CameraRepository( 6893): Added camera: 0
+I/Camera2CameraInfo( 6893): Device Level: INFO_SUPPORTED_HARDWARE_LEVEL_FULL
+D/CameraRepository( 6893): Added camera: 1
+I/Camera2CameraInfo( 6893): Device Level: INFO_SUPPORTED_HARDWARE_LEVEL_FULL
+D/CameraValidator( 6893): Verifying camera lens facing on oriole, lensFacingInteger: null
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=270, isOppositeFacing=false, result=270
+D/VRI[MainActivity]( 6893): Draw frame after cancel
+W/InteractionJankMonitor( 6893): Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=jp.picpie.book_scan_camera
+W/WindowOnBackDispatcher( 6893): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 6893): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+D/DynamicRangeResolver( 6893): Resolved dynamic range for use case androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff to no compatible HDR dynamic ranges.
+D/DynamicRangeResolver( 6893): DynamicRange@f75b611{encoding=UNSPECIFIED, bitDepth=0}
+D/DynamicRangeResolver( 6893): ->
+D/DynamicRangeResolver( 6893): DynamicRange@4531638{encoding=SDR, bitDepth=8}
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/DeferrableSurface( 6893): Surface created[total_surfaces=1, used_surfaces=0](androidx.camera.core.processing.SurfaceEdge$SettableSurface@4bde376}
+D/DeferrableSurface( 6893): Surface created[total_surfaces=2, used_surfaces=0](androidx.camera.core.SurfaceRequest$2@39cc102}
+D/DeferrableSurface( 6893): New surface in use[total_surfaces=2, used_surfaces=1](androidx.camera.core.SurfaceRequest$2@39cc102}
+D/DeferrableSurface( 6893): use count+1, useCount=1 androidx.camera.core.SurfaceRequest$2@39cc102
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/ImageCapture( 6893): createPipeline(cameraId: 0, streamSpec: StreamSpec{resolution=4080x3072, dynamicRange=DynamicRange@4531638{encoding=SDR, bitDepth=8}, expectedFrameRateRange=[0, 0], implementationOptions=androidx.camera.camera2.impl.Camera2ImplConfig@999eb4e})
+D/CompatibilityChangeReporter( 6893): Compat change id reported: 236825255; UID 10320; state: DISABLED
+D/DeferrableSurface( 6893): Surface created[total_surfaces=3, used_surfaces=1](androidx.camera.core.impl.ImmediateSurface@88f246f}
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Use case androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827 ACTIVE
+D/UseCaseAttachState( 6893): Active and attached use case: [] for camera: 0
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/DeferrableSurface( 6893): Surface created[total_surfaces=4, used_surfaces=1](androidx.camera.core.impl.ImmediateSurface@793988b}
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Use case androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116 ACTIVE
+D/UseCaseAttachState( 6893): Active and attached use case: [] for camera: 0
+I/Choreographer( 6893): Skipped 110 frames!  The application may be doing too much work on its main thread.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Use case androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827 ACTIVE
+D/UseCaseAttachState( 6893): Active and attached use case: [] for camera: 0
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Use case androidx.camera.core.ImageAnalysis-f004b1f4-1a4e-4970-b945-dbc54d827809171363121 INACTIVE
+D/UseCaseAttachState( 6893): Active and attached use case: [] for camera: 0
+D/VRI[MainActivity]( 6893): visibilityChanged oldVisibility=true newVisibility=false
+D/UseCaseAttachState( 6893): Active and attached use case: [] for camera: 0
+I/HWUI    ( 6893): Davey! duration=1238ms; Flags=0, FrameTimelineVsyncId=14773553, IntendedVsync=1124302400137966, Vsync=1124303623057026, InputEventId=0, HandleInputStart=1124303632751446, AnimationStart=1124303632763572, PerformTraversalsStart=1124303634440085, DrawStart=1124303635264060, FrameDeadline=1124302416737966, FrameInterval=1124303632095562, FrameStartTime=11117446, SyncQueued=1124303635839174, SyncStart=1124303635898866, IssueDrawCommandsStart=1124303635984600, SwapBuffers=1124303637848573, FrameCompleted=1124303638581728, DequeueBufferDuration=93750, QueueBufferDuration=551066, GpuCompleted=1124303638160585, SwapBuffersCompleted=1124303638581728, DisplayPresentTime=501157784404, CommandSubmissionCompleted=1124303637848573,
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Use cases [androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116, androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827, androidx.camera.core.ImageAnalysis-f004b1f4-1a4e-4970-b945-dbc54d827809171363121] now ATTACHED
+D/UseCaseAttachState( 6893): All use case: [androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827, androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116, androidx.camera.core.ImageAnalysis-f004b1f4-1a4e-4970-b945-dbc54d827809171363121] for camera: 0
+D/VRI[MainActivity]( 6893): applyTransactionOnDraw applyImmediately
+D/VRI[MainActivity]( 6893): Not drawing due to not visible
+D/UseCaseAttachState( 6893): Active and attached use case: [androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827, androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116] for camera: 0
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Resetting Capture Session
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Releasing session in state INITIALIZED
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Attempting to force open the camera.
+D/CameraStateRegistry( 6893): tryOpenCamera(Camera@89ce05c[id=0]) [Available Cameras: 1, Already Open: false (Previous state: null)] --> SUCCESS
+D/CameraStateRegistry( 6893): Recalculating open cameras:
+D/CameraStateRegistry( 6893): Camera                                       State
+D/CameraStateRegistry( 6893): -------------------------------------------------------------------
+D/CameraStateRegistry( 6893): Camera@89ce05c[id=0]                         OPENING
+D/CameraStateRegistry( 6893): Camera@d8798c7[id=1]                         UNKNOWN
+D/CameraStateRegistry( 6893): -------------------------------------------------------------------
+D/CameraStateRegistry( 6893): Open count: 1 (Max allowed: 1)
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Opening camera.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Transitioning camera internal state: INITIALIZED --> OPENING
+D/CameraStateMachine( 6893): New public camera state CameraState{type=OPENING, error=null} from OPENING and null
+D/CameraStateMachine( 6893): Publishing new public camera state CameraState{type=OPENING, error=null}
+D/UseCaseAttachState( 6893): All use case: [androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827, androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116, androidx.camera.core.ImageAnalysis-f004b1f4-1a4e-4970-b945-dbc54d827809171363121] for camera: 0
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Use case androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116 ACTIVE
+D/UseCaseAttachState( 6893): Active and attached use case: [androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827, androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116] for camera: 0
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Use case androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827 ACTIVE
+D/UseCaseAttachState( 6893): Active and attached use case: [androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827, androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116] for camera: 0
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Use case androidx.camera.core.ImageAnalysis-f004b1f4-1a4e-4970-b945-dbc54d827809171363121 INACTIVE
+D/UseCaseAttachState( 6893): Active and attached use case: [androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827, androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116] for camera: 0
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Use cases [androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116, androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827, androidx.camera.core.ImageAnalysis-f004b1f4-1a4e-4970-b945-dbc54d827809171363121] now DETACHED for camera
+D/UseCaseAttachState( 6893): All use case: [] for camera: 0
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Resetting Capture Session
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Releasing session in state OPENING
+D/UseCaseAttachState( 6893): Active and attached use case: [] for camera: 0
+D/UseCaseAttachState( 6893): Active and attached use case: [] for camera: 0
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Closing camera.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Transitioning camera internal state: OPENING --> CLOSING
+D/CameraStateRegistry( 6893): Recalculating open cameras:
+D/CameraStateRegistry( 6893): Camera                                       State
+D/CameraStateRegistry( 6893): -------------------------------------------------------------------
+D/CameraStateRegistry( 6893): Camera@89ce05c[id=0]                         CLOSING
+D/CameraStateRegistry( 6893): Camera@d8798c7[id=1]                         UNKNOWN
+D/CameraStateRegistry( 6893): -------------------------------------------------------------------
+D/CameraStateRegistry( 6893): Open count: 1 (Max allowed: 1)
+D/CameraStateMachine( 6893): New public camera state CameraState{type=CLOSING, error=null} from CLOSING and null
+D/CameraStateMachine( 6893): Publishing new public camera state CameraState{type=CLOSING, error=null}
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} CameraDevice.onOpened()
+D/UseCaseAttachState( 6893): Active and attached use case: [] for camera: 0
+D/UseCaseAttachState( 6893): Active and attached use case: [] for camera: 0
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} CameraDevice.onClosed()
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Transitioning camera internal state: CLOSING --> INITIALIZED
+D/CameraStateRegistry( 6893): Recalculating open cameras:
+D/CameraStateRegistry( 6893): Camera                                       State
+D/CameraStateRegistry( 6893): -------------------------------------------------------------------
+D/CameraStateRegistry( 6893): Camera@89ce05c[id=0]                         CLOSED
+D/CameraStateRegistry( 6893): Camera@d8798c7[id=1]                         UNKNOWN
+D/CameraStateRegistry( 6893): -------------------------------------------------------------------
+D/CameraStateRegistry( 6893): Open count: 0 (Max allowed: 1)
+D/CameraStateMachine( 6893): New public camera state CameraState{type=CLOSED, error=null} from CLOSED and null
+D/CameraStateMachine( 6893): Publishing new public camera state CameraState{type=CLOSED, error=null}
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/CompatibilityChangeReporter( 6893): Compat change id reported: 78294732; UID 10320; state: ENABLED
+D/UseCaseAttachState( 6893): Active and attached use case: [] for camera: 0
+D/VRI[MainActivity]( 6893): applyTransactionOnDraw applyImmediately
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Use cases [androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116, androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827, androidx.camera.core.ImageAnalysis-f004b1f4-1a4e-4970-b945-dbc54d827809171363121] now ATTACHED
+D/onActivityResult( 6893): data.getData(): content://com.android.externalstorage.documents/tree/primary%3ADCIM%2F%E3%82%B8%E3%83%A7%E3%82%B8%E3%83%A7%E3%81%AE%E5%A5%87%E5%A6%99%E3%81%AA%E5%86%92%E9%99%BANo.23
+D/UseCaseAttachState( 6893): All use case: [androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116, androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827, androidx.camera.core.ImageAnalysis-f004b1f4-1a4e-4970-b945-dbc54d827809171363121] for camera: 0
+D/UseCaseAttachState( 6893): Active and attached use case: [] for camera: 0
+D/VRI[MainActivity]( 6893): applyTransactionOnDraw applyImmediately
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Resetting Capture Session
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Releasing session in state INITIALIZED
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Attempting to force open the camera.
+D/CameraStateRegistry( 6893): tryOpenCamera(Camera@89ce05c[id=0]) [Available Cameras: 1, Already Open: false (Previous state: CLOSED)] --> SUCCESS
+D/CameraStateRegistry( 6893): Recalculating open cameras:
+D/CameraStateRegistry( 6893): Camera                                       State
+D/CameraStateRegistry( 6893): -------------------------------------------------------------------
+D/CameraStateRegistry( 6893): Camera@89ce05c[id=0]                         OPENING
+D/CameraStateRegistry( 6893): Camera@d8798c7[id=1]                         UNKNOWN
+D/CameraStateRegistry( 6893): -------------------------------------------------------------------
+D/CameraStateRegistry( 6893): Open count: 1 (Max allowed: 1)
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Opening camera.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Transitioning camera internal state: INITIALIZED --> OPENING
+D/CameraStateMachine( 6893): New public camera state CameraState{type=OPENING, error=null} from OPENING and null
+D/CameraStateMachine( 6893): Publishing new public camera state CameraState{type=OPENING, error=null}
+D/UseCaseAttachState( 6893): All use case: [androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116, androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827, androidx.camera.core.ImageAnalysis-f004b1f4-1a4e-4970-b945-dbc54d827809171363121] for camera: 0
+D/VRI[MainActivity]( 6893): Start draw after previous draw not visible
+I/flutter ( 6893): selectDirectory is content://com.android.externalstorage.documents/tree/primary%3ADCIM%2F%E3%82%B8%E3%83%A7%E3%82%B8%E3%83%A7%E3%81%AE%E5%A5%87%E5%A6%99%E3%81%AA%E5%86%92%E9%99%BANo.23
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Use case androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116 ACTIVE
+D/UseCaseAttachState( 6893): Active and attached use case: [androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116] for camera: 0
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Use case androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827 ACTIVE
+D/UseCaseAttachState( 6893): Active and attached use case: [androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116, androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827] for camera: 0
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Use case androidx.camera.core.ImageAnalysis-f004b1f4-1a4e-4970-b945-dbc54d827809171363121 INACTIVE
+D/UseCaseAttachState( 6893): Active and attached use case: [androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116, androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827] for camera: 0
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} CameraDevice.onOpened()
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Transitioning camera internal state: OPENING --> OPENED
+D/CameraStateRegistry( 6893): Recalculating open cameras:
+D/CameraStateRegistry( 6893): Camera                                       State
+D/CameraStateRegistry( 6893): -------------------------------------------------------------------
+D/CameraStateRegistry( 6893): Camera@89ce05c[id=0]                         OPEN
+D/CameraStateRegistry( 6893): Camera@d8798c7[id=1]                         UNKNOWN
+D/CameraStateRegistry( 6893): -------------------------------------------------------------------
+D/CameraStateRegistry( 6893): Open count: 1 (Max allowed: 1)
+D/CameraStateMachine( 6893): New public camera state CameraState{type=OPEN, error=null} from OPEN and null
+D/CameraStateMachine( 6893): Publishing new public camera state CameraState{type=OPEN, error=null}
+D/UseCaseAttachState( 6893): All use case: [androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116, androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827, androidx.camera.core.ImageAnalysis-f004b1f4-1a4e-4970-b945-dbc54d827809171363121] for camera: 0
+D/UseCaseAttachState( 6893): Active and attached use case: [androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116, androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827] for camera: 0
+D/SyncCaptureSessionBase( 6893): [androidx.camera.camera2.internal.SynchronizedCaptureSessionBaseImpl@bda1558] getSurface...done
+D/CaptureSession( 6893): Opening capture session.
+D/DeferrableSurface( 6893): New surface in use[total_surfaces=4, used_surfaces=2](androidx.camera.core.processing.SurfaceEdge$SettableSurface@4bde376}
+D/DeferrableSurface( 6893): use count+1, useCount=1 androidx.camera.core.processing.SurfaceEdge$SettableSurface@4bde376
+D/DeferrableSurface( 6893): New surface in use[total_surfaces=4, used_surfaces=3](androidx.camera.core.impl.ImmediateSurface@88f246f}
+D/DeferrableSurface( 6893): use count+1, useCount=1 androidx.camera.core.impl.ImmediateSurface@88f246f
+D/DeferrableSurface( 6893): New surface in use[total_surfaces=4, used_surfaces=4](androidx.camera.core.impl.ImmediateSurface@793988b}
+D/DeferrableSurface( 6893): use count+1, useCount=1 androidx.camera.core.impl.ImmediateSurface@793988b
+I/flutter ( 6893): {"name":"pic20240518_030938_409.png","size":2944909,"lastModified":1715969378502,"type":"image\/png","uri":"content:\/\/com.android.externalstorage.documents\/tree\/primary%3ADCIM%2F%E3%82%B8%E3%83%A7%E3%82%B8%E3%83%A7%E3%81%AE%E5%A5%87%E5%A6%99%E3%81%AA%E5%86%92%E9%99%BANo.23\/document\/primary%3ADCIM%2F%E3%82%B8%E3%83%A7%E3%82%B8%E3%83%A7%E3%81%AE%E5%A5%87%E5%A6%99%E3%81%AA%E5%86%92%E9%99%BANo.23%2Fpic20240518_030938_409.png"}
+D/CaptureSession( 6893): Attempting to send capture request onConfigured
+D/CaptureSession( 6893): Issuing request for session.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/CaptureSession( 6893): CameraCaptureSession.onConfigured() mState=OPENED
+D/CaptureSession( 6893): CameraCaptureSession.onReady() OPENED
+W/1.raster( 6893): type=1400 audit(0.0:22952): avc:  denied  { getattr } for  name="/" dev="dmabuf" ino=1 scontext=u:r:untrusted_app_32:s0:c64,c257,c512,c768 tcontext=u:object_r:unlabeled:s0 tclass=filesystem permissive=0 app=jp.picpie.book_scan_camera
+W/1.raster( 6893): type=1400 audit(0.0:22953): avc:  denied  { getattr } for  name="/" dev="dmabuf" ino=1 scontext=u:r:untrusted_app_32:s0:c64,c257,c512,c768 tcontext=u:object_r:unlabeled:s0 tclass=filesystem permissive=0 app=jp.picpie.book_scan_camera
+W/1.raster( 6893): type=1400 audit(0.0:22954): avc:  denied  { getattr } for  name="/" dev="dmabuf" ino=1 scontext=u:r:untrusted_app_32:s0:c64,c257,c512,c768 tcontext=u:object_r:unlabeled:s0 tclass=filesystem permissive=0 app=jp.picpie.book_scan_camera
+W/1.raster( 6893): type=1400 audit(0.0:22955): avc:  denied  { getattr } for  name="/" dev="dmabuf" ino=1 scontext=u:r:untrusted_app_32:s0:c64,c257,c512,c768 tcontext=u:object_r:unlabeled:s0 tclass=filesystem permissive=0 app=jp.picpie.book_scan_camera
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:13:05.157101
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 278 milliseconds
+I/flutter ( 6893): saveTo duration: 18 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 2 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 19 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:13:05.491592
+I/flutter ( 6893): Picture capture duration: 334 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:13:27.348807
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 163 milliseconds
+I/flutter ( 6893): saveTo duration: 9 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 2 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:13:27.525604
+I/flutter ( 6893): Picture capture duration: 176 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:13:35.272912
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 162 milliseconds
+I/flutter ( 6893): saveTo duration: 12 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 6 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:13:35.459194
+I/flutter ( 6893): Picture capture duration: 186 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:13:42.596329
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 193 milliseconds
+I/flutter ( 6893): saveTo duration: 13 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:13:42.811908
+I/flutter ( 6893): Picture capture duration: 215 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:13:48.689883
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 181 milliseconds
+I/flutter ( 6893): saveTo duration: 11 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 2 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 6 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:13:48.894271
+I/flutter ( 6893): Picture capture duration: 204 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:13:57.289069
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 180 milliseconds
+I/flutter ( 6893): saveTo duration: 7 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 2 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 7 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:13:57.489108
+I/flutter ( 6893): Picture capture duration: 200 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:14:05.210153
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 149 milliseconds
+I/flutter ( 6893): saveTo duration: 12 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:14:05.379149
+I/flutter ( 6893): Picture capture duration: 168 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:14:12.544429
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 150 milliseconds
+I/flutter ( 6893): saveTo duration: 7 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 7 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:14:12.712493
+I/flutter ( 6893): Picture capture duration: 168 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:14:24.724767
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 174 milliseconds
+I/flutter ( 6893): saveTo duration: 5 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:14:24.913176
+I/flutter ( 6893): Picture capture duration: 188 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:14:34.457107
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 136 milliseconds
+I/flutter ( 6893): saveTo duration: 6 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 9 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:14:34.611358
+I/flutter ( 6893): Picture capture duration: 154 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:14:41.761453
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 162 milliseconds
+I/flutter ( 6893): saveTo duration: 5 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:14:41.937458
+I/flutter ( 6893): Picture capture duration: 176 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:14:47.859364
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 133 milliseconds
+I/flutter ( 6893): saveTo duration: 6 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 7 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:14:48.011251
+I/flutter ( 6893): Picture capture duration: 151 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:14:54.881491
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 163 milliseconds
+I/flutter ( 6893): saveTo duration: 5 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 8 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:14:55.063202
+I/flutter ( 6893): Picture capture duration: 181 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:15:00.978923
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 141 milliseconds
+I/flutter ( 6893): saveTo duration: 9 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:15:01.138841
+I/flutter ( 6893): Picture capture duration: 159 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:15:07.977268
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 187 milliseconds
+I/flutter ( 6893): saveTo duration: 8 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 5 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:15:08.181901
+I/flutter ( 6893): Picture capture duration: 204 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:15:14.062244
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 137 milliseconds
+I/flutter ( 6893): saveTo duration: 4 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 7 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:15:14.215401
+I/flutter ( 6893): Picture capture duration: 153 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:15:19.533847
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 138 milliseconds
+I/flutter ( 6893): saveTo duration: 5 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 3 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:15:19.684755
+I/flutter ( 6893): Picture capture duration: 150 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:15:28.676069
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 162 milliseconds
+I/flutter ( 6893): saveTo duration: 7 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:15:28.854745
+I/flutter ( 6893): Picture capture duration: 178 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:15:33.563579
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 172 milliseconds
+I/flutter ( 6893): saveTo duration: 4 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 3 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:15:33.747131
+I/flutter ( 6893): Picture capture duration: 183 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:15:39.692077
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 148 milliseconds
+I/flutter ( 6893): saveTo duration: 3 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 3 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:15:39.851552
+I/flutter ( 6893): Picture capture duration: 159 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:15:45.186082
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 157 milliseconds
+I/flutter ( 6893): saveTo duration: 4 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:15:45.354566
+I/flutter ( 6893): Picture capture duration: 168 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:15:51.589105
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 161 milliseconds
+I/flutter ( 6893): saveTo duration: 15 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 6 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:15:51.775891
+I/flutter ( 6893): Picture capture duration: 186 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:15:58.326611
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 169 milliseconds
+I/flutter ( 6893): saveTo duration: 5 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 8 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:15:58.512189
+I/flutter ( 6893): Picture capture duration: 185 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:16:05.350849
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 162 milliseconds
+I/flutter ( 6893): saveTo duration: 8 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 2 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:16:05.527067
+I/flutter ( 6893): Picture capture duration: 176 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:16:14.191486
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 163 milliseconds
+I/flutter ( 6893): saveTo duration: 6 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 3 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:16:14.367681
+I/flutter ( 6893): Picture capture duration: 176 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:16:21.508618
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 151 milliseconds
+I/flutter ( 6893): saveTo duration: 11 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 6 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:16:21.681113
+I/flutter ( 6893): Picture capture duration: 172 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:16:29.119853
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 145 milliseconds
+I/flutter ( 6893): saveTo duration: 13 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:16:29.285624
+I/flutter ( 6893): Picture capture duration: 165 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:16:37.049979
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 151 milliseconds
+I/flutter ( 6893): saveTo duration: 5 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 7 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:16:37.217368
+I/flutter ( 6893): Picture capture duration: 167 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:16:44.053890
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 145 milliseconds
+I/flutter ( 6893): saveTo duration: 7 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 3 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:16:44.213153
+I/flutter ( 6893): Picture capture duration: 159 milliseconds
+W/1.raster( 6893): type=1400 audit(0.0:22956): avc:  denied  { getattr } for  name="/" dev="dmabuf" ino=1 scontext=u:r:untrusted_app_32:s0:c64,c257,c512,c768 tcontext=u:object_r:unlabeled:s0 tclass=filesystem permissive=0 app=jp.picpie.book_scan_camera
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:16:51.073869
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 156 milliseconds
+I/flutter ( 6893): saveTo duration: 4 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 7 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:16:51.247932
+I/flutter ( 6893): Picture capture duration: 174 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:16:58.995228
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 177 milliseconds
+I/flutter ( 6893): saveTo duration: 4 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 5 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:16:59.188313
+I/flutter ( 6893): Picture capture duration: 193 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:17:05.392489
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 154 milliseconds
+I/flutter ( 6893): saveTo duration: 6 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:17:05.560066
+I/flutter ( 6893): Picture capture duration: 167 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:17:13.619215
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 196 milliseconds
+I/flutter ( 6893): saveTo duration: 8 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 5 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:17:13.833271
+I/flutter ( 6893): Picture capture duration: 214 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:17:20.925366
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 151 milliseconds
+I/flutter ( 6893): saveTo duration: 4 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:17:21.088467
+I/flutter ( 6893): Picture capture duration: 163 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:17:29.749072
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 166 milliseconds
+I/flutter ( 6893): saveTo duration: 9 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 8 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:17:29.936045
+I/flutter ( 6893): Picture capture duration: 186 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:17:37.055011
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 128 milliseconds
+I/flutter ( 6893): saveTo duration: 15 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 5 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:17:37.207007
+I/flutter ( 6893): Picture capture duration: 151 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:17:46.194858
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 217 milliseconds
+I/flutter ( 6893): saveTo duration: 4 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 6 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:17:46.427801
+I/flutter ( 6893): Picture capture duration: 232 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:17:53.826223
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 162 milliseconds
+I/flutter ( 6893): saveTo duration: 7 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 5 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 5 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:17:54.009176
+I/flutter ( 6893): Picture capture duration: 182 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:18:00.839881
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 159 milliseconds
+I/flutter ( 6893): saveTo duration: 13 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 3 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:18:01.018481
+I/flutter ( 6893): Picture capture duration: 178 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:18:09.689100
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 174 milliseconds
+I/flutter ( 6893): saveTo duration: 13 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 2 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:18:09.882459
+I/flutter ( 6893): Picture capture duration: 193 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:18:16.994515
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 135 milliseconds
+I/flutter ( 6893): saveTo duration: 3 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 9 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:18:17.147806
+I/flutter ( 6893): Picture capture duration: 153 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:18:24.600515
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 172 milliseconds
+I/flutter ( 6893): saveTo duration: 6 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 9 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:18:24.790412
+I/flutter ( 6893): Picture capture duration: 189 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:18:31.067092
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 149 milliseconds
+I/flutter ( 6893): saveTo duration: 11 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 7 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:18:31.239623
+I/flutter ( 6893): Picture capture duration: 172 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:18:41.725856
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 147 milliseconds
+I/flutter ( 6893): saveTo duration: 9 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 3 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:18:41.892526
+I/flutter ( 6893): Picture capture duration: 166 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:18:53.007623
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 136 milliseconds
+I/flutter ( 6893): saveTo duration: 10 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 5 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:18:53.163373
+I/flutter ( 6893): Picture capture duration: 155 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:18:59.702694
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 139 milliseconds
+I/flutter ( 6893): saveTo duration: 3 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 2 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:18:59.849713
+I/flutter ( 6893): Picture capture duration: 147 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:19:08.274891
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 139 milliseconds
+I/flutter ( 6893): saveTo duration: 5 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 2 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 6 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:19:08.432608
+I/flutter ( 6893): Picture capture duration: 157 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:19:15.596378
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 131 milliseconds
+I/flutter ( 6893): saveTo duration: 13 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 2 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 3 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:19:15.749681
+I/flutter ( 6893): Picture capture duration: 153 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:19:26.276953
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 147 milliseconds
+I/flutter ( 6893): saveTo duration: 12 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 6 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:19:26.446566
+I/flutter ( 6893): Picture capture duration: 169 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:19:32.057145
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 162 milliseconds
+I/flutter ( 6893): saveTo duration: 7 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:19:32.233218
+I/flutter ( 6893): Picture capture duration: 176 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:19:40.908459
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 181 milliseconds
+I/flutter ( 6893): saveTo duration: 5 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 3 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:19:41.100725
+I/flutter ( 6893): Picture capture duration: 192 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:19:50.636874
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 184 milliseconds
+I/flutter ( 6893): saveTo duration: 6 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 10 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:19:50.843457
+I/flutter ( 6893): Picture capture duration: 206 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:19:59.172288
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 175 milliseconds
+I/flutter ( 6893): saveTo duration: 13 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 2 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 16 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:19:59.386022
+I/flutter ( 6893): Picture capture duration: 213 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:20:08.685265
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 163 milliseconds
+I/flutter ( 6893): saveTo duration: 7 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 3 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 13 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:20:08.877155
+I/flutter ( 6893): Picture capture duration: 191 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:20:18.752742
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 171 milliseconds
+I/flutter ( 6893): saveTo duration: 4 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:20:18.936193
+I/flutter ( 6893): Picture capture duration: 183 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:20:27.918107
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 165 milliseconds
+I/flutter ( 6893): saveTo duration: 6 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 8 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:20:28.101465
+I/flutter ( 6893): Picture capture duration: 183 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:20:37.367832
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 276 milliseconds
+I/flutter ( 6893): saveTo duration: 9 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 2 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 9 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:20:37.670709
+I/flutter ( 6893): Picture capture duration: 302 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:20:45.431325
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 264 milliseconds
+I/flutter ( 6893): saveTo duration: 13 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 2 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 14 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:20:45.730023
+I/flutter ( 6893): Picture capture duration: 298 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:20:57.795281
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 276 milliseconds
+I/flutter ( 6893): saveTo duration: 10 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 5 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:20:58.089999
+I/flutter ( 6893): Picture capture duration: 294 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:21:10.861669
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 279 milliseconds
+I/flutter ( 6893): saveTo duration: 18 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 6 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 7 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:21:11.179122
+I/flutter ( 6893): Picture capture duration: 317 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:21:20.483184
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 278 milliseconds
+I/flutter ( 6893): saveTo duration: 7 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 8 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:21:20.788173
+I/flutter ( 6893): Picture capture duration: 304 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:21:30.375186
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 296 milliseconds
+I/flutter ( 6893): saveTo duration: 15 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 9 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:21:30.699101
+I/flutter ( 6893): Picture capture duration: 323 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:21:38.912756
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 290 milliseconds
+I/flutter ( 6893): saveTo duration: 17 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 2 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 10 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:21:39.236999
+I/flutter ( 6893): Picture capture duration: 324 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:21:56.617460
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 268 milliseconds
+I/flutter ( 6893): saveTo duration: 9 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 19 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:21:56.919581
+I/flutter ( 6893): Picture capture duration: 302 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:22:07.102024
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 257 milliseconds
+I/flutter ( 6893): saveTo duration: 8 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 12 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:22:07.384738
+I/flutter ( 6893): Picture capture duration: 282 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:22:17.050090
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 319 milliseconds
+I/flutter ( 6893): saveTo duration: 19 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 8 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:22:17.402281
+I/flutter ( 6893): Picture capture duration: 352 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:22:27.137480
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 262 milliseconds
+I/flutter ( 6893): saveTo duration: 7 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 3 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 15 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:22:27.430734
+I/flutter ( 6893): Picture capture duration: 293 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:22:39.175377
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 273 milliseconds
+I/flutter ( 6893): saveTo duration: 7 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 8 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:22:39.470920
+I/flutter ( 6893): Picture capture duration: 295 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:22:48.429813
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 288 milliseconds
+I/flutter ( 6893): saveTo duration: 16 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 21 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:22:48.762669
+I/flutter ( 6893): Picture capture duration: 332 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:22:58.942277
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 252 milliseconds
+I/flutter ( 6893): saveTo duration: 11 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:22:59.214224
+I/flutter ( 6893): Picture capture duration: 271 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:23:07.896320
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 290 milliseconds
+I/flutter ( 6893): saveTo duration: 13 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 2 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 10 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:23:08.217804
+I/flutter ( 6893): Picture capture duration: 321 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:23:17.833650
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 312 milliseconds
+I/flutter ( 6893): saveTo duration: 20 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 2 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 11 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:23:18.183578
+I/flutter ( 6893): Picture capture duration: 349 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:23:26.682029
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 282 milliseconds
+I/flutter ( 6893): saveTo duration: 12 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 2 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 14 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:23:26.997616
+I/flutter ( 6893): Picture capture duration: 315 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:23:35.987325
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 332 milliseconds
+I/flutter ( 6893): saveTo duration: 9 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:23:36.336468
+I/flutter ( 6893): Picture capture duration: 349 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:23:43.937152
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 230 milliseconds
+I/flutter ( 6893): saveTo duration: 11 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 3 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 10 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:23:44.198517
+I/flutter ( 6893): Picture capture duration: 261 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:23:52.918505
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/ook_scan_camera( 6893): Background concurrent mark compact GC freed 134280(5264KB) AllocSpace objects, 10(32MB) LOS objects, 75% free, 10MB/43MB, paused 197us,9.441ms total 82.910ms
+I/flutter ( 6893): takePicture duration: 297 milliseconds
+I/flutter ( 6893): saveTo duration: 23 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 15 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:23:53.259581
+I/flutter ( 6893): Picture capture duration: 341 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:23:59.634493
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 232 milliseconds
+I/flutter ( 6893): saveTo duration: 9 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:23:59.883375
+I/flutter ( 6893): Picture capture duration: 248 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:24:08.303763
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 282 milliseconds
+I/flutter ( 6893): saveTo duration: 12 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 13 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:24:08.617355
+I/flutter ( 6893): Picture capture duration: 313 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:24:17.564520
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 239 milliseconds
+I/flutter ( 6893): saveTo duration: 19 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:24:17.833011
+I/flutter ( 6893): Picture capture duration: 268 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:24:26.804796
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 233 milliseconds
+I/flutter ( 6893): saveTo duration: 8 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 6 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:24:27.059468
+I/flutter ( 6893): Picture capture duration: 254 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:24:36.320817
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 292 milliseconds
+I/flutter ( 6893): saveTo duration: 16 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 7 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:24:36.641458
+I/flutter ( 6893): Picture capture duration: 320 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:24:44.250567
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 268 milliseconds
+I/flutter ( 6893): saveTo duration: 10 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 8 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:24:44.542183
+I/flutter ( 6893): Picture capture duration: 291 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:24:52.348835
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 256 milliseconds
+I/flutter ( 6893): saveTo duration: 20 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 2 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 13 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:24:52.647142
+I/flutter ( 6893): Picture capture duration: 298 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:25:01.653732
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 262 milliseconds
+I/flutter ( 6893): saveTo duration: 10 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 3 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 16 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:25:01.952680
+I/flutter ( 6893): Picture capture duration: 298 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:25:09.729140
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 226 milliseconds
+I/flutter ( 6893): saveTo duration: 17 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 13 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:25:09.993391
+I/flutter ( 6893): Picture capture duration: 264 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:25:18.050224
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 319 milliseconds
+I/flutter ( 6893): saveTo duration: 15 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 2 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 14 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:25:18.404952
+I/flutter ( 6893): Picture capture duration: 354 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:25:28.712394
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 282 milliseconds
+I/flutter ( 6893): saveTo duration: 11 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 7 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:25:29.017078
+I/flutter ( 6893): Picture capture duration: 304 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:25:48.985615
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 252 milliseconds
+I/flutter ( 6893): saveTo duration: 8 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 6 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:25:49.254972
+I/flutter ( 6893): Picture capture duration: 269 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:25:57.918070
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 254 milliseconds
+I/flutter ( 6893): saveTo duration: 16 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:25:58.195829
+I/flutter ( 6893): Picture capture duration: 277 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:26:06.530448
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 242 milliseconds
+I/flutter ( 6893): saveTo duration: 17 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 2 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:26:06.798596
+I/flutter ( 6893): Picture capture duration: 268 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:26:16.351082
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 286 milliseconds
+I/flutter ( 6893): saveTo duration: 19 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 4 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:26:16.665131
+I/flutter ( 6893): Picture capture duration: 314 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:26:26.588549
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 265 milliseconds
+I/flutter ( 6893): saveTo duration: 10 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 15 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:26:26.887323
+I/flutter ( 6893): Picture capture duration: 298 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:26:37.092725
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 248 milliseconds
+I/flutter ( 6893): saveTo duration: 11 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 8 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:26:37.368710
+I/flutter ( 6893): Picture capture duration: 275 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:26:46.678188
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 248 milliseconds
+I/flutter ( 6893): saveTo duration: 18 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 2 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 12 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:26:46.962727
+I/flutter ( 6893): Picture capture duration: 284 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:26:54.114853
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 201 milliseconds
+I/flutter ( 6893): saveTo duration: 14 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 2 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:26:54.335304
+I/flutter ( 6893): Picture capture duration: 220 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:27:02.400820
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 238 milliseconds
+I/flutter ( 6893): saveTo duration: 9 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 2 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 10 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:27:02.663974
+I/flutter ( 6893): Picture capture duration: 263 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:27:12.909168
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 252 milliseconds
+I/flutter ( 6893): saveTo duration: 17 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 1 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 10 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:27:13.197394
+I/flutter ( 6893): Picture capture duration: 288 milliseconds
+I/flutter ( 6893): Picture capture started at: 2024-05-18 03:27:23.670827
+D/ImageCapture( 6893): takePictureInternal
+D/CameraOrientationUtil( 6893): getRelativeImageRotation: destRotationDegrees=90, sourceRotationDegrees=90, isOppositeFacing=true, result=0
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Issue capture request
+D/CaptureSession( 6893): Issuing capture request.
+D/Camera2CaptureRequestBuilder( 6893): createCaptureRequest
+D/TakePictureManager( 6893): Issue the next TakePictureRequest.
+D/TakePictureManager( 6893): No new request.
+I/flutter ( 6893): takePicture duration: 236 milliseconds
+I/flutter ( 6893): saveTo duration: 12 milliseconds
+I/flutter ( 6893): copyToPublicA duration: 0 milliseconds
+I/flutter ( 6893): loadimageFileSS duration: 2 milliseconds
+I/flutter ( 6893): Picture capture ended at: 2024-05-18 03:27:23.925130
+I/flutter ( 6893): Picture capture duration: 254 milliseconds
+D/DeferrableSurface( 6893): surface closed,  useCount=1 closed=true androidx.camera.core.processing.SurfaceEdge$SettableSurface@4bde376
+D/ImageCapture( 6893): clearPipeline
+D/DeferrableSurface( 6893): surface closed,  useCount=1 closed=true androidx.camera.core.impl.ImmediateSurface@88f246f
+D/DeferrableSurface( 6893): surface closed,  useCount=1 closed=true androidx.camera.core.impl.ImmediateSurface@793988b
+E/BufferQueueProducer( 6893): [SurfaceTexture-0-6893-0](id:1aed00000002,api:4,p:1089,c:6893) queueBuffer: BufferQueue has been abandoned
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Use cases [androidx.camera.core.Preview-04cc60cf-070e-4499-9a35-af6de39822ff257019116, androidx.camera.core.ImageCapture-1130d2f9-8368-4c34-b949-af16db33e533227760827, androidx.camera.core.ImageAnalysis-f004b1f4-1a4e-4970-b945-dbc54d827809171363121] now DETACHED for camera
+D/UseCaseAttachState( 6893): All use case: [] for camera: 0
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Resetting Capture Session
+E/BufferQueueProducer( 6893): [SurfaceTexture-0-6893-0](id:1aed00000002,api:4,p:1089,c:6893) dequeueBuffer: BufferQueue has been abandoned
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Releasing session in state OPENED
+D/UseCaseAttachState( 6893): Active and attached use case: [] for camera: 0
+D/UseCaseAttachState( 6893): Active and attached use case: [] for camera: 0
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Closing camera.
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Transitioning camera internal state: OPENED --> CLOSING
+D/CameraStateRegistry( 6893): Recalculating open cameras:
+D/CameraStateRegistry( 6893): Camera                                       State
+D/CameraStateRegistry( 6893): -------------------------------------------------------------------
+D/CameraStateRegistry( 6893): Camera@89ce05c[id=0]                         CLOSING
+D/CameraStateRegistry( 6893): Camera@d8798c7[id=1]                         UNKNOWN
+D/CameraStateRegistry( 6893): -------------------------------------------------------------------
+D/CameraStateRegistry( 6893): Open count: 1 (Max allowed: 1)
+D/CameraStateMachine( 6893): New public camera state CameraState{type=CLOSING, error=null} from CLOSING and null
+D/CameraStateMachine( 6893): Publishing new public camera state CameraState{type=CLOSING, error=null}
+E/BufferQueueProducer( 6893): [SurfaceTexture-0-6893-0](id:1aed00000002,api:4,p:1089,c:6893) queueBuffer: BufferQueue has been abandoned
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Resetting Capture Session
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Releasing session in state CLOSING
+D/CaptureSession( 6893): onSessionFinished()
+D/UseCaseAttachState( 6893): Active and attached use case: [] for camera: 0
+D/DeferrableSurface( 6893): use count-1,  useCount=0 closed=true androidx.camera.core.processing.SurfaceEdge$SettableSurface@4bde376
+D/DeferrableSurface( 6893): Surface no longer in use[total_surfaces=4, used_surfaces=3](androidx.camera.core.processing.SurfaceEdge$SettableSurface@4bde376}
+D/DeferrableSurface( 6893): Surface terminated[total_surfaces=3, used_surfaces=3](androidx.camera.core.processing.SurfaceEdge$SettableSurface@4bde376}
+D/DeferrableSurface( 6893): use count-1,  useCount=0 closed=false androidx.camera.core.SurfaceRequest$2@39cc102
+D/DeferrableSurface( 6893): Surface no longer in use[total_surfaces=3, used_surfaces=2](androidx.camera.core.SurfaceRequest$2@39cc102}
+D/DeferrableSurface( 6893): surface closed,  useCount=0 closed=true androidx.camera.core.SurfaceRequest$2@39cc102
+D/DeferrableSurface( 6893): Surface terminated[total_surfaces=2, used_surfaces=2](androidx.camera.core.SurfaceRequest$2@39cc102}
+D/DeferrableSurface( 6893): use count-1,  useCount=0 closed=true androidx.camera.core.impl.ImmediateSurface@88f246f
+D/DeferrableSurface( 6893): Surface no longer in use[total_surfaces=2, used_surfaces=1](androidx.camera.core.impl.ImmediateSurface@88f246f}
+D/DeferrableSurface( 6893): Surface terminated[total_surfaces=1, used_surfaces=1](androidx.camera.core.impl.ImmediateSurface@88f246f}
+D/DeferrableSurface( 6893): use count-1,  useCount=0 closed=true androidx.camera.core.impl.ImmediateSurface@793988b
+D/DeferrableSurface( 6893): Surface no longer in use[total_surfaces=1, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@793988b}
+D/DeferrableSurface( 6893): Surface terminated[total_surfaces=0, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@793988b}
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} CameraDevice.onClosed()
+D/Camera2CameraImpl( 6893): {Camera@89ce05c[id=0]} Transitioning camera internal state: CLOSING --> INITIALIZED
+D/CameraStateRegistry( 6893): Recalculating open cameras:
+D/CameraStateRegistry( 6893): Camera                                       State
+D/CameraStateRegistry( 6893): -------------------------------------------------------------------
+D/CameraStateRegistry( 6893): Camera@89ce05c[id=0]                         CLOSED
+D/CameraStateRegistry( 6893): Camera@d8798c7[id=1]                         UNKNOWN
+D/CameraStateRegistry( 6893): -------------------------------------------------------------------
+D/CameraStateRegistry( 6893): Open count: 0 (Max allowed: 1)
+D/CameraStateMachine( 6893): New public camera state CameraState{type=CLOSED, error=null} from CLOSED and null
+D/CameraStateMachine( 6893): Publishing new public camera state CameraState{type=CLOSED, error=null}
+D/VRI[MainActivity]( 6893): visibilityChanged oldVisibility=true newVisibility=false
+D/VRI[MainActivity]( 6893): applyTransactionOnDraw applyImmediately
+D/VRI[MainActivity]( 6893): applyTransactionOnDraw applyImmediately
+D/VRI[MainActivity]( 6893): Not drawing due to not visible
+D/VRI[MainActivity]( 6893): applyTransactionOnDraw applyImmediately
+D/VRI[MainActivity]( 6893): applyTransactionOnDraw applyImmediately
+Lost connection to device.
+
+Exited.
