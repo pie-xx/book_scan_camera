@@ -45,13 +45,16 @@ class _CameraAppState extends State<CameraView> {
 
   late DateTime laspcaptime; 
 
+  late final GlobalKey<InteractiveImageViewerState> viewerKey;
+
   @override
   void initState() {
     super.initState();
 
     laspcaptime = DateTime.now();
 
-    ivmain = InteractiveImageViewer();
+    viewerKey = GlobalKey();
+    ivmain = InteractiveImageViewer(key:viewerKey);
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
 
     controller = CameraController(_cameras![0], ResolutionPreset.max);
@@ -108,60 +111,60 @@ class _CameraAppState extends State<CameraView> {
     super.dispose();
   }
 
-void takePicture() async {
-  if (inCapture) {
-    return;
+  void takePicture() async {
+    if (inCapture) {
+      return;
+    }
+    final startTime = DateTime.now();
+    debugPrint('Picture capture started at: $startTime');
+
+    final difftime = startTime.difference(laspcaptime).inMilliseconds;
+    laspcaptime = startTime;
+    if(difftime < 500){
+      debugPrint('Picture capture ignore $startTime $laspcaptime');
+      return;
+    }
+
+    inCapture = true;
+
+    final takePictureStart = DateTime.now();
+    XFile picfile = await controller.takePicture();
+    final takePictureEnd = DateTime.now();
+    debugPrint('takePicture duration: ${takePictureEnd.difference(takePictureStart).inMilliseconds} milliseconds');
+
+    final saveStart = DateTime.now();
+    String capPath = "${Prop.getTempPath()}/cap.jpg";
+    await picfile.saveTo(capPath);
+    final saveEnd = DateTime.now();
+    debugPrint('saveTo duration: ${saveEnd.difference(saveStart).inMilliseconds} milliseconds');
+
+    final copyStart = DateTime.now();
+    final savefilename = generateFileName();
+    SafFiler.copyToPublicA("image/png", savefilename, capPath);
+    debugPrint('takePicture savefilename: $savefilename');
+    final copyEnd = DateTime.now();
+    debugPrint('copyToPublicA duration: ${copyEnd.difference(copyStart).inMilliseconds} milliseconds');
+
+    final loadImageStart = DateTime.now();
+    //ivmain.loadimageFileSS(capPath);
+      Uint8List  imageData = File(capPath).readAsBytesSync();
+      Image img = Image.memory(imageData);
+      ivmain = InteractiveImageViewer(img: img, key: viewerKey);
+
+    final loadImageEnd = DateTime.now();
+    debugPrint('loadimageFileSS duration: ${loadImageEnd.difference(loadImageStart).inMilliseconds} milliseconds');
+
+    inCapture = false;
+
+    final endTime = DateTime.now();
+    debugPrint('Picture capture ended at: $endTime');
+    final duration = endTime.difference(startTime);
+    debugPrint('Picture capture duration: ${duration.inMilliseconds} milliseconds');
+
+    setState(() {
+      
+    });
   }
-  final startTime = DateTime.now();
-  debugPrint('Picture capture started at: $startTime');
-
-  final difftime = startTime.difference(laspcaptime).inMilliseconds;
-  laspcaptime = startTime;
-  if(difftime < 500){
-    debugPrint('Picture capture ignore $startTime $laspcaptime');
-    return;
-  }
-
-  inCapture = true;
-
-  final takePictureStart = DateTime.now();
-  XFile picfile = await controller.takePicture();
-  final takePictureEnd = DateTime.now();
-  debugPrint('takePicture duration: ${takePictureEnd.difference(takePictureStart).inMilliseconds} milliseconds');
-
-  final saveStart = DateTime.now();
-  String capPath = "${Prop.getTempPath()}/cap.jpg";
-  await picfile.saveTo(capPath);
-  final saveEnd = DateTime.now();
-  debugPrint('saveTo duration: ${saveEnd.difference(saveStart).inMilliseconds} milliseconds');
-
-  final copyStart = DateTime.now();
-  final savefilename = generateFileName();
-  SafFiler.copyToPublicA("image/png", savefilename, capPath);
-  debugPrint('takePicture savefilename: $savefilename');
-  final copyEnd = DateTime.now();
-  debugPrint('copyToPublicA duration: ${copyEnd.difference(copyStart).inMilliseconds} milliseconds');
-
-  final loadImageStart = DateTime.now();
-  //ivmain.loadimageFileSS(capPath);
-    Uint8List  imageData = File(capPath).readAsBytesSync();
-    Image img = Image.memory(imageData);
-    ivmain = InteractiveImageViewer(img: img);
-
-  final loadImageEnd = DateTime.now();
-  debugPrint('loadimageFileSS duration: ${loadImageEnd.difference(loadImageStart).inMilliseconds} milliseconds');
-
-  inCapture = false;
-
-  final endTime = DateTime.now();
-  debugPrint('Picture capture ended at: $endTime');
-  final duration = endTime.difference(startTime);
-  debugPrint('Picture capture duration: ${duration.inMilliseconds} milliseconds');
-
-  setState(() {
-    
-  });
-}
 
   String generateFileName() {
     final now = DateTime.now();
@@ -181,6 +184,8 @@ void takePicture() async {
     if (!controller.value.isInitialized) {
       return Container();
     }
+
+
 
     double previewWidth = MediaQuery.of(context).size.width / 4;
 
@@ -228,7 +233,7 @@ void takePicture() async {
                 iconSize: 40,
                 onPressed: () {
                   setState(() {
-                    ivmain.setTransformation(Matrix4.identity());
+                    viewerKey.currentState?.setTransformation(Matrix4.identity());
                   });
                 },
               ),
