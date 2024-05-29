@@ -17,12 +17,12 @@ List<CameraDescription>? _cameras;
 /// CameraApp is the Main Application.
 class CameraView extends StatefulWidget {
   /// Default Constructor
-  const CameraView({super.key});
+  CameraView({super.key});
 
   @override
   State<CameraView> createState() => _CameraAppState();
 
-  static void init() async {
+  static Future<void> init() async {
     _cameras = await availableCameras();
   }
   static bool isEnable(){
@@ -36,8 +36,8 @@ class CameraView extends StatefulWidget {
 class _CameraAppState extends State<CameraView> {
   late CameraController controller;
   late InteractiveImageViewer ivmain;
-  final _transformationController = TransformationController();
-  //Image? img;
+  GlobalKey<InteractiveImageViewerState> _iivkey = GlobalKey();
+
   static const platform = MethodChannel("jp.picpie.book_scan_camera/saf");
 
   static bool inCapture = false;
@@ -45,16 +45,13 @@ class _CameraAppState extends State<CameraView> {
 
   late DateTime laspcaptime; 
 
-  late final GlobalKey<InteractiveImageViewerState> viewerKey;
-
   @override
   void initState() {
     super.initState();
 
     laspcaptime = DateTime.now();
 
-    viewerKey = GlobalKey();
-    ivmain = InteractiveImageViewer(key:viewerKey);
+    ivmain = InteractiveImageViewer(key: _iivkey,);
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
 
     controller = CameraController(_cameras![0], ResolutionPreset.max);
@@ -86,21 +83,10 @@ class _CameraAppState extends State<CameraView> {
       });
   }
 
-  void dispatchKeycode(){
-    Timer(Duration(milliseconds: 300), () async {
-      var key = await platform.invokeMethod('getKeyCode',{ });
-      if( key=="24"){
-        takePicture();
-      }
-      dispatchKeycode();
-    });
-  }
-
   @override
   void didChangeDependencies() async {
     super.didChangeDependencies();
     selectDirectory();
-    //dispatchKeycode();
   }
 
   @override
@@ -116,7 +102,7 @@ class _CameraAppState extends State<CameraView> {
       return;
     }
     final startTime = DateTime.now();
-    debugPrint('Picture capture started at: $startTime');
+        debugPrint('Picture capture started at: $startTime');
 
     final difftime = startTime.difference(laspcaptime).inMilliseconds;
     laspcaptime = startTime;
@@ -125,44 +111,45 @@ class _CameraAppState extends State<CameraView> {
       return;
     }
 
+
     inCapture = true;
 
-    final takePictureStart = DateTime.now();
-    XFile picfile = await controller.takePicture();
+        final takePictureStart = DateTime.now();
+        XFile picfile = await controller.takePicture();
+
     final takePictureEnd = DateTime.now();
-    debugPrint('takePicture duration: ${takePictureEnd.difference(takePictureStart).inMilliseconds} milliseconds');
 
-    final saveStart = DateTime.now();
-    String capPath = "${Prop.getTempPath()}/cap.jpg";
+        debugPrint('takePicture duration: ${takePictureEnd.difference(takePictureStart).inMilliseconds} milliseconds');
+        final saveStart = DateTime.now();
+        String capPath = "${Prop.getTempPath()}/cap.jpg";
+
     await picfile.saveTo(capPath);
-    final saveEnd = DateTime.now();
-    debugPrint('saveTo duration: ${saveEnd.difference(saveStart).inMilliseconds} milliseconds');
 
-    final copyStart = DateTime.now();
+        final saveEnd = DateTime.now();
+        debugPrint('saveTo duration: ${saveEnd.difference(saveStart).inMilliseconds} milliseconds');
+        final copyStart = DateTime.now();
+
     final savefilename = generateFileName();
     SafFiler.copyToPublicA("image/png", savefilename, capPath);
-    debugPrint('takePicture savefilename: $savefilename');
-    final copyEnd = DateTime.now();
-    debugPrint('copyToPublicA duration: ${copyEnd.difference(copyStart).inMilliseconds} milliseconds');
+
+        debugPrint('takePicture savefilename: $savefilename');
+        final copyEnd = DateTime.now();
+        debugPrint('copyToPublicA duration: ${copyEnd.difference(copyStart).inMilliseconds} milliseconds');
 
     final loadImageStart = DateTime.now();
-    //ivmain.loadimageFileSS(capPath);
-      Uint8List  imageData = File(capPath).readAsBytesSync();
-      Image img = Image.memory(imageData);
-      ivmain = InteractiveImageViewer(img: img, key: viewerKey);
+    ivmain = ivmain.loadimageFile(capPath);
 
-    final loadImageEnd = DateTime.now();
-    debugPrint('loadimageFileSS duration: ${loadImageEnd.difference(loadImageStart).inMilliseconds} milliseconds');
+        final loadImageEnd = DateTime.now();
+        debugPrint('loadimageFileSS duration: ${loadImageEnd.difference(loadImageStart).inMilliseconds} milliseconds');
 
     inCapture = false;
 
-    final endTime = DateTime.now();
-    debugPrint('Picture capture ended at: $endTime');
-    final duration = endTime.difference(startTime);
-    debugPrint('Picture capture duration: ${duration.inMilliseconds} milliseconds');
+        final endTime = DateTime.now();
+        debugPrint('Picture capture ended at: $endTime');
+        final duration = endTime.difference(startTime);
+        debugPrint('Picture capture duration: ${duration.inMilliseconds} milliseconds');
 
     setState(() {
-      
     });
   }
 
@@ -185,40 +172,44 @@ class _CameraAppState extends State<CameraView> {
       return Container();
     }
 
-
-
     double previewWidth = MediaQuery.of(context).size.width / 4;
 
     return Scaffold(
       body: Row(
         children: [
           Expanded(
-            child: Stack(
-              children: [
-                Positioned.fill(
-                  child: CameraPreview(controller),
+            child: Center(
+              child: AspectRatio(
+                aspectRatio: controller.value.aspectRatio,
+                child: Stack(
+                  children: [
+                    Positioned.fill(
+                      child: CameraPreview(controller),
+                    ),
+                    Positioned.fill(
+                      child: CustomPaint(
+                        painter: CrosshairPainter(),
+                      ),
+                    ),
+                  ],
                 ),
-                Positioned.fill(
-                  child: CustomPaint(
-                    painter: CrosshairPainter(),
-                  ),
-                ),
-              ],
+              ),
             ),
           ),
           Column(
             children: [
-              Text('close'),
+              Text('folder'),
               IconButton(
-                icon: const Icon(Icons.close),
+                icon: const Icon(Icons.folder_outlined),
                 iconSize: 40,
                 onPressed: () {
-                  Navigator.pop(context);
+                  selectDirectory();
+                  //Navigator.pop(context);
                 },
               ),
               Text('shutter'),
               IconButton(
-                icon: const Icon(Icons.camera),
+                icon: const Icon(Icons.camera_outlined),
                 iconSize: 40,
                 onPressed: () {
                   takePicture();
@@ -233,7 +224,7 @@ class _CameraAppState extends State<CameraView> {
                 iconSize: 40,
                 onPressed: () {
                   setState(() {
-                    viewerKey.currentState?.setTransformation(Matrix4.identity());
+                    ivmain.setTransformation(Matrix4.identity());
                   });
                 },
               ),
@@ -243,7 +234,6 @@ class _CameraAppState extends State<CameraView> {
       ),
     );
   }
-
 }
 
 class CrosshairPainter extends CustomPainter {
@@ -259,19 +249,16 @@ class CrosshairPainter extends CustomPainter {
       Offset(size.width / 2, size.height),
       paint,
     );
-
     canvas.drawLine(
       Offset(size.width / 4, 0),
       Offset(size.width / 4, size.height),
       paint,
     );
-
     canvas.drawLine(
       Offset(size.width * 3 / 4, 0),
       Offset(size.width * 3 / 4, size.height),
       paint,
     );
-
 
     // 横の線
     canvas.drawLine(

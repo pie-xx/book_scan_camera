@@ -1,17 +1,38 @@
+import 'dart:async';
+import 'dart:typed_data';
+import 'dart:io';
+import 'dart:ui' as ui;
+
 import 'package:flutter/material.dart';
 
 class InteractiveImageViewer extends StatefulWidget {
-  final Image? img;
-  final GlobalKey<InteractiveImageViewerState> key;
+  final Image? img;  // finalじゃなくすると再描画されなくなる
+  final GlobalKey<InteractiveImageViewerState>? key;
 
-  InteractiveImageViewer({this.img, required this.key}) : super(key: key);
+  const InteractiveImageViewer({this.img, this.key}) : super(key: key);
+
+  void setTransformation(Matrix4 newTransformation) {
+    key!.currentState?.setTransformation(newTransformation);
+  }
+
+  InteractiveImageViewer loadimageFile(String filename, {double? width, double? height})  {
+    try{
+      Uint8List  imageData = File(filename).readAsBytesSync();
+      Image _img = Image.memory(imageData);
+      
+      return InteractiveImageViewer(img: _img, key: key,);
+    }catch(e){
+      debugPrint(e.toString());
+    }
+    return InteractiveImageViewer(img:img, key:key);
+  }
 
   @override
   InteractiveImageViewerState createState() => InteractiveImageViewerState();
 }
 
 class InteractiveImageViewerState extends State<InteractiveImageViewer> {
-  TransformationController _transformationController = TransformationController();
+  final TransformationController _transformationController = TransformationController();
 
   @override
   void dispose() {
