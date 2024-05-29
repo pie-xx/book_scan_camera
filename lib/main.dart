@@ -4,7 +4,7 @@ import 'camera_page.dart';
 import 'prop.dart';
 import 'saf_filer.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   // 画面の向きを横向きに固定する
   SystemChrome.setPreferredOrientations([
@@ -13,7 +13,7 @@ void main() {
   ]);
 
   Prop.init();
-  CameraView.init();
+  await CameraView.init();
   SafFiler.init();
 
   runApp(const MyApp());
@@ -26,16 +26,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage( title: 'camera',),
+      home:
+        CameraView(),
     );
   }
 }
-
+/*
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
@@ -70,3 +70,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+*/
